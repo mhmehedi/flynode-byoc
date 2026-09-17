@@ -1,8 +1,0 @@
-services:
-  app:
-    image: "nginx:alpine"
-    volumes:
-      - app-data:/usr/share/nginx/html
-
-volumes:
-  app-data:
